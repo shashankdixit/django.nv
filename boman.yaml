@@ -7,3 +7,5 @@ Auth:
 SAST:
   language: "python" ## supported languages python(.py),nodejs(.js),java(.jar,.zip,.class),php(.php),ruby(.rb)
   #work_dir: "/home/boxuser/box/railsgoat/" ## default is present working directory , mention full path incase of defining
+
+Secret_Scan: True
