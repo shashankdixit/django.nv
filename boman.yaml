@@ -1,11 +1,8 @@
 Auth:
-  project_token: "62d86c99-0107-46ec-8d8d-fc25205d76f3"
-  customer_token:  "389e4d4a-ece0-4c1c-be13-384b1434c0f6"
-
-
-
+  project_token: 302a52b9-f75f-43c4-8b12-fd384272a4f8
+  customer_token: 91c920c5-be7f-44fe-92bb-183995083674
 SAST:
-  language: "python" ## supported languages python(.py),nodejs(.js),java(.jar,.zip,.class),php(.php),ruby(.rb)
-  #work_dir: "/home/boxuser/box/railsgoat/" ## default is present working directory , mention full path incase of defining
-
-Secret_Scan: True
+  language: semgrep
+SCA:
+  language: python
+Secret_Scan: true
