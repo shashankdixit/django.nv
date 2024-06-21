@@ -3,6 +3,9 @@ Auth:
   customer_token: 91c920c5-be7f-44fe-92bb-183995083674
 SAST:
   language: semgrep
+DAST:
+  type: WEB
+  URL: 'https://demo.testfire.net'
 SCA:
   language: python
 Secret_Scan: true
