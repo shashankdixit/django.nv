@@ -1,11 +1,8 @@
 Auth:
-  project_token: 302a52b9-f75f-43c4-8b12-fd384272a4f8
-  customer_token: 91c920c5-be7f-44fe-92bb-183995083674
+  project_token: d7fa701a-f4b0-4008-8a40-a0d43382d5a4
+  customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
 SAST:
   language: semgrep
-DAST:
-  type: WEB
-  URL: 'https://demo.testfire.net'
 SCA:
   language: python
 Secret_Scan: true
