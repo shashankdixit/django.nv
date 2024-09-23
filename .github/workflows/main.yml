@@ -8,7 +8,7 @@ on:
   pull_request:
     branches: [ master ]
 
-  # #Allows you to run this workflow manually from the Actions tab
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -19,9 +19,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       # Runs a single command using the runners shell
       - name: Install packages
-        run: pip install boman-cli==1.9
-      - name: Run scan  
-        run: boman-cli -a run -u https://dash.boman.ai
+        run: sudo pip install boman-cli
+      - name: Run scan
+        run: sudo boman-cli -a run -u https://qa.boman.ai
