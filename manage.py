@@ -12,7 +12,7 @@
 # meant to demonstrate Django security problems
 # UNDER NO CIRCUMSTANCES should you take any code
 # from django.nV for use in another web application!
-#
+# Test Comment
 
 import os
 import sys
