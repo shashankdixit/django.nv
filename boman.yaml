@@ -1,9 +1,12 @@
 Auth:
-  project_token: 7d784a8e-9245-44f4-a618-48d4d96de0be
-  customer_token: f01bc6b2-2f02-4e24-bb5d-b0fc4bd61e93
+  project_token: 39ec1fea-398f-4230-bc31-e343eb31ab3d
+  customer_token: 91c920c5-be7f-44fe-92bb-183995083674
 SAST:
   language: semgrep
 SCA:
   language: python
 Secret_Scan: true
+container_scan:
+  type: image
+  target: https://github.com/secfigo/django.nv/blob/master/Dockerfile
 SBOM: true
