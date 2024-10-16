@@ -3023,7 +3023,7 @@
             for (i = 0; i < slen; i++) {
                 replace += this['_draw' + shapes[i].type].apply(this, shapes[i].args);
             }
-            existing[0].outerHTML = replace;
+            existing[0].textContent = replace;
             for (i = 1; i < shapeids.length; i++) {
                 $('#jqsshape' + shapeids[i]).remove();
             }
