@@ -6,7 +6,4 @@ SAST:
 SCA:
   language: python
 Secret_Scan: true
-container_scan:
-  type: config
-  target: https://github.com/secfigo/django.nv/blob/master/Dockerfile
 SBOM: true
