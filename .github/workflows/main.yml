@@ -21,12 +21,12 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install packages
-        run: sudo pip install boman-cli
+        run: sudo pip install boman-cli-uat
        # run: sudo pip install boman-cli
       - name: Run scan
-        env:
-          APP: ${{ secrets.APPTOKEN }}
-          USER: ${{ secrets.CUSTOMERTOKEN }}
+     #   env:
+      #    APP: ${{ secrets.APPTOKEN }}
+       #   USER: ${{ secrets.CUSTOMERTOKEN }}
         run: sudo boman-cli-uat -a run 
         # run: sudo boman-cli -a run -at "$APP" -ct "$USER"
         # run: sudo boman-cli -a run
