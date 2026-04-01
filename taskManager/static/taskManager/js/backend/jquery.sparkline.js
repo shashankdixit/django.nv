@@ -3011,7 +3011,7 @@
         replaceWithShape: function (shapeid, shape) {
             var existing = $('#jqsshape' + shapeid),
                 vel = this['_draw' + shape.type].apply(this, shape.args);
-            existing[0].outerHTML = vel;
+            existing[0].textContent = vel;
         },
 
         replaceWithShapes: function (shapeids, shapes) {
